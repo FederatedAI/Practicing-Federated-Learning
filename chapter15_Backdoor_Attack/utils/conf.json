@@ -1,0 +1,30 @@
+{
+	
+	"model_name" : "resnet18",
+	
+	"no_models" : 10,
+	
+	"type" : "cifar",
+	
+	"global_epochs" : 20,
+	
+	"local_epochs" : 3,
+	
+	"k" : 3,
+	
+	"batch_size" : 32,
+	
+	"lr" : 0.001,
+	
+	"momentum" : 0.0001,
+	
+	"lambda" : 0.3,
+	
+	"eta" : 2,
+
+	"alpha" : 1.0,
+	
+	"poison_label" : 2,
+	
+	"poisoning_per_batch" : 4
+}
