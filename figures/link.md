@@ -2,6 +2,12 @@
 
 
 
+## 前言
+
+链接0-1：[香港科技大学“联邦学习”课程](https://ising.cse.ust.hk/fl/index.html)
+
+
+
 ## 第三章
 
 链接3-1：[Anaconda下载地址](https://www.anaconda.com/products/individual)
