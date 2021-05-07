@@ -6,7 +6,7 @@
 
 
 
-**注：由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致某些代码无法运行，因此，强烈建议读者如果想进一步了解FATE的使用和安装，可以直接参考FATE官方文档教程：**
+注：由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致配置方式和运行方式发生改变，**因此，强烈建议读者如果想进一步了解FATE的最新使用和安装，可以直接参考FATE官方文档教程：**
 
 * [FATE的安装部署](https://github.com/FederatedAI/DOC-CHN/tree/master/%E9%83%A8%E7%BD%B2)
 * [FATE的官方文档](https://github.com/FederatedAI/DOC-CHN)
@@ -14,7 +14,7 @@
 **如果FATE的安装和使用遇到任何问题，可以添加FATE小助手，有专门的工程团队人员帮忙解决。**
 
 <div align=center>
-<img width="400" src="figures/FATE_logo.jpg" alt="FATE小助手"/>
+<img width="300" src="figures/FATE_logo.jpg" alt="FATE小助手"/>
 </div>
 
 ## 5.1 实验准备
