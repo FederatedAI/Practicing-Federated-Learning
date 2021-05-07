@@ -1,6 +1,17 @@
 # 第6章：用FATE从零实现纵向线性回归
 
-本章我们学习利用FATE从零开始构建一个简单的纵向线性回归模型，经过本章的学习，读者应该能够了解利用FATE进行横向建模的基本流程，与第五章一样，考虑到本书的篇幅和写作目的，我们本章不对FATE的底层原理进行过多的分析讲解。此外，如果读者需要熟悉更多的纵向联邦案例，也可以自行参考FATE官方文档：[FATE纵向联邦建模](https://github.com/FederatedAI/FATE/tree/master/examples/dsl/v1)。
+本章我们学习利用FATE从零开始构建一个简单的纵向线性回归模型，经过本章的学习，读者应该能够了解利用FATE进行横向建模的基本流程，与第五章一样，考虑到本书的篇幅和写作目的，我们本章不对FATE的底层原理进行过多的分析讲解。
+
+**注：与第五章一样，由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致某些代码无法运行，因此，强烈建议读者如果想深入了解FATE的使用和安装，可以直接参考FATE官方文档教程：**
+
+* [FATE的安装部署](https://github.com/FederatedAI/DOC-CHN/tree/master/%E9%83%A8%E7%BD%B2)
+* [FATE的官方文档](https://github.com/FederatedAI/DOC-CHN)
+
+**如果FATE的安装和使用遇到任何问题，可以添加FATE小助手，有专门的工程团队人员帮忙解决。**
+
+<div align=center>
+<img width="400" src="figures/FATE_logo.jpg" alt="FATE小助手"/>
+</div>
 
 ## 6.1 实验准备
 
@@ -195,13 +206,13 @@ python $fate_dir/fate_flow/fate_flow_client.py -f upload -c upload_data.json
 
 下面是最基本的纵向联邦建模配置：
 
-* [test_hetero_linr_train_job_dsl.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_hetero_linr_train_job_dsl.json)
-* [test_hetero_linr_train_job_conf.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_hetero_linr_train_job_conf.json)
+* [test_hetero_linr_train_job_dsl.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter06_FATE_VFL/test_hetero_linr_train_job_dsl.json)
+* [test_hetero_linr_train_job_conf.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter06_FATE_VFL/test_hetero_linr_train_job_conf.json)
 
 如果想单独设置额外的评估数据，我们需要创建单独的评估数据模块：
 
-* [test_hetero_linr_train_eval_job_dsl.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_hetero_linr_train_eval_job_dsl.json)
-* [test_hetero_linr_train_eval_job_conf.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_hetero_linr_train_eval_job_conf.json)
+* [test_hetero_linr_train_eval_job_dsl.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter06_FATE_VFL/test_hetero_linr_train_eval_job_dsl.json)
+* [test_hetero_linr_train_eval_job_conf.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter06_FATE_VFL/test_hetero_linr_train_eval_job_conf.json)
 
 
 

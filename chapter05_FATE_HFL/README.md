@@ -2,7 +2,20 @@
 
 在第三章我们介绍了如何使用Python构建简单的横向联邦学习模型。但应该注意到，联邦学习的开发，特别是工业级的产品开发，涉及的工程量却远不止于此，一个功能完备的联邦学习框架的设计细节是相当复杂的，幸运的是，随着联邦学习的发展，当前市面上已经出现了越来越多的开源平台。
 
-本章我们将介绍使用FATE从零开始构建一个简单的横向逻辑回归模型，经过本章的学习，读者能够了解利用FATE进行横向建模的基本流程。鉴于本书的篇幅有限，以及本书的写作目的，我们不对FATE的具体原理实现进行详细的讲解，读者可以参考FATE官方文档来获取更多的应用案例：[FATE横向联邦建模](https://github.com/FederatedAI/FATE/tree/master/examples/dsl/v1)。
+本章我们将介绍使用FATE从零开始构建一个简单的横向逻辑回归模型，经过本章的学习，读者能够了解利用FATE进行横向建模的基本流程。鉴于本书的篇幅有限，以及本书的写作目的，我们不对FATE的具体原理实现进行详细的讲解。
+
+
+
+**注：由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致某些代码无法运行，因此，强烈建议读者如果想进一步了解FATE的使用和安装，可以直接参考FATE官方文档教程：**
+
+* [FATE的安装部署](https://github.com/FederatedAI/DOC-CHN/tree/master/%E9%83%A8%E7%BD%B2)
+* [FATE的官方文档](https://github.com/FederatedAI/DOC-CHN)
+
+**如果FATE的安装和使用遇到任何问题，可以添加FATE小助手，有专门的工程团队人员帮忙解决。**
+
+<div align=center>
+<img width="400" src="figures/FATE_logo.jpg" alt="FATE小助手"/>
+</div>
 
 ## 5.1 实验准备
 
@@ -109,8 +122,8 @@ https://github.com/FederatedAI/DOC-CHN/blob/master/Federatedml/%E8%BF%90%E8%A1%8
 
 本案例中，读者可以直接使用本文件夹提供的配置文件：
 
-* [test_homolr_train_job_conf.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_homolr_train_job_conf.json)
-* [test_homolr_train_job_dsl.json](https://github.com/innovation-cat/federated_learning_in_action/blob/master/chapter04_FATE-HFL/test_homolr_train_job_dsl.json)
+* [test_homolr_train_job_conf.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter05_FATE_HFL/test_homolr_train_job_conf.json)
+* [test_homolr_train_job_dsl.json](https://github.com/FederatedAI/Practicing-Federated-Learning/blob/main/chapter05_FATE_HFL/test_homolr_train_job_dsl.json)
 
 
 
