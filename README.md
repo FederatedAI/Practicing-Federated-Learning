@@ -14,10 +14,11 @@
 
 <font size=4>**本项目将长期维护和更新《联邦学习实战》书籍对应的章节代码。书或代码中遇到的问题，可以邮件联系：huanganbu@gmail.com**</font>
 
-注：
+由于受到出版刊物限制，本书不能在纸质书页面上放置网络链接，本书的链接对应可查看这里（[书中链接](figures/link.md)）。
 
-- 由于受到出版刊物限制，本书不能在纸质书页面上放置网络链接，本书的链接对应可查看这里（[书中链接](figures/link.md)）。
-- 书中可能存在印刷或撰写的错误，勘误列表读者可点击：[勘误列表](errata/errata.md)，同时也欢迎读者反馈书中的文字错误问题，以便我们改进。
+书中可能存在印刷或撰写的错误，勘误列表读者可点击：[勘误列表](errata/errata.md)，同时也欢迎读者反馈书中的文字错误问题，以便我们改进。
+
+&nbsp;
 
 ## 简  介
 
@@ -44,6 +45,8 @@
 
 
 注：本项目含有部分数学公式，为了不影响阅读效果，在Github网页中能正常显示公式，需要读者首先下载相应的浏览器插件，如MathJax插件（[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)）
+
+&nbsp;
 
 ## 推荐语
 
@@ -78,8 +81,7 @@
 
 - [香港科技大学“联邦学习”课程](https://ising.cse.ust.hk/fl/index.html)
 
-  
-
+&nbsp;
 
 ## 代码章节目录
 

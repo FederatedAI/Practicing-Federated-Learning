@@ -1,4 +1,4 @@
-# 联邦学习实战链接
+# 《联邦学习实战》勘误
 
 
 
@@ -11,4 +11,3 @@
 <div align=center>
 <img width="900" src="figures/5_1.png" alt="勘误"/>
 </div>
-
