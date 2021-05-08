@@ -2,6 +2,7 @@
 
  [![Anaconda](https://img.shields.io/badge/Anaconda-v3-brightgreen?logo=Anaconda)](https://www.anaconda.com/) [![FATE](https://img.shields.io/badge/FATE-v1.5-brightgreen?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIj48cGF0aCBkPSJNMTI5IDExMWMtNTUgNC05MyA2Ni05MyA3OEwwIDM5OGMtMiA3MCAzNiA5MiA2OSA5MWgxYzc5IDAgODctNTcgMTMwLTEyOGgyMDFjNDMgNzEgNTAgMTI4IDEyOSAxMjhoMWMzMyAxIDcxLTIxIDY5LTkxbC0zNi0yMDljMC0xMi00MC03OC05OC03OGgtMTBjLTYzIDAtOTIgMzUtOTIgNDJIMjM2YzAtNy0yOS00Mi05Mi00MmgtMTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)](https://github.com/FederatedAI/FATE) [![Stars](https://img.shields.io/github/stars/FederatedAI/Practicing-Federated-Learning.svg?style=flat-square&label=Stars&logo=github)](https://img.shields.io/github/stars/FederatedAI/Practicing-Federated-Learning.svg?style=flat-square&label=Stars&logo=github) [![CodeStyle](https://img.shields.io/badge/Check%20Style-Google-brightgreen)](https://checkstyle.sourceforge.io/google_style.html)   
 &nbsp;
+
 <div align=center>
 <img width="900" src="figures/cover2.png" alt="联邦学习实战"/>
 </div>
@@ -13,7 +14,10 @@
 
 <font size=4>**本项目将长期维护和更新《联邦学习实战》书籍对应的章节代码。书或代码中遇到的问题，可以邮件联系：huanganbu@gmail.com**</font>
 
-注：由于受到出版刊物限制，本书不能在纸质书页面上放置网络链接，本书的链接对应可查看这里（[书中链接](figures/link.md)）。
+注：
+
+- 由于受到出版刊物限制，本书不能在纸质书页面上放置网络链接，本书的链接对应可查看这里（[书中链接](figures/link.md)）。
+- 书中可能存在印刷或撰写的错误，勘误列表读者可点击：[勘误列表](errata/errata.md)，同时也欢迎读者反馈书中的文字错误问题，以便我们改进。
 
 ## 简  介
 
