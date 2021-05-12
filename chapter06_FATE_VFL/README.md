@@ -2,7 +2,7 @@
 
 本章我们学习利用FATE从零开始构建一个简单的纵向线性回归模型，经过本章的学习，读者应该能够了解利用FATE进行横向建模的基本流程，与第五章一样，考虑到本书的篇幅和写作目的，我们本章不对FATE的底层原理进行过多的分析讲解。
 
-注：与第五章一样，由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致配置方式和运行方式发生改变，**因此，强烈建议读者如果想深入了解FATE的最新使用、已经最新版本信息，可以直接参考FATE官方文档教程：**
+**注：与第五章一样，由于FATE平台在不断迭代和更新的过程中，本章的内容撰写截稿时间较早（2020年9月截稿），可能会因版本变化而导致配置方式和运行方式发生改变，因此，强烈建议读者如果想深入了解FATE的最新使用、已经最新版本信息，可以直接参考FATE官方文档教程：**
 
 * [FATE的安装部署](https://github.com/FederatedAI/DOC-CHN/tree/master/%E9%83%A8%E7%BD%B2)
 * [FATE的官方文档](https://github.com/FederatedAI/DOC-CHN)
@@ -169,7 +169,6 @@ python $fate_dir/fate_flow/fate_flow_client.py -f upload -c upload_data.json
   <img width="800" src="./figures/fig7.png" alt=""/>
   </div>
 &nbsp;
-  
 
 
 - **步骤四**：公司$A$方首先映射表$(Y_A \rightarrow u_A)$与映射表$(Y_A \rightarrow Z_A)$进行join运算得到新的映射表$(Z_A \rightarrow u_A)$。同时，将$(Z_A)^i$值除于随机数$r_i$，并代入哈希函数$H$中，得到：
