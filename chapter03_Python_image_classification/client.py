@@ -6,7 +6,7 @@ class Client(object):
 		
 		self.conf = conf
 		
-		self.local_model = model
+		self.local_model = models.get_model(self.conf["model_name"]) 
 		
 		self.client_id = id
 		
@@ -25,10 +25,10 @@ class Client(object):
 		for name, param in model.state_dict().items():
 			self.local_model.state_dict()[name].copy_(param.clone())
 	
-	
+		#print(id(model))
 		optimizer = torch.optim.SGD(self.local_model.parameters(), lr=self.conf['lr'],
 									momentum=self.conf['momentum'])
-		
+		#print(id(self.local_model))
 		self.local_model.train()
 		for e in range(self.conf["local_epochs"]):
 			
@@ -49,6 +49,7 @@ class Client(object):
 		diff = dict()
 		for name, data in self.local_model.state_dict().items():
 			diff[name] = (data - model.state_dict()[name])
+			#print(diff[name])
 			
 		return diff
 		
