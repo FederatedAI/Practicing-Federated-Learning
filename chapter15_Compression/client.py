@@ -6,8 +6,6 @@ class Client(object):
 		
 		self.conf = conf
 		
-		#self.local_model = model
-		
 		self.local_model = models.get_model(self.conf["model_name"]) 
 		
 		self.client_id = id

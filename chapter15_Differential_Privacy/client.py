@@ -5,9 +5,7 @@ class Client(object):
 	def __init__(self, conf, model, train_dataset, id = -1):
 		
 		self.conf = conf
-		
-		#self.local_model = model
-		
+
 		self.local_model = models.get_model(self.conf["model_name"]) 
 		
 		self.client_id = id
