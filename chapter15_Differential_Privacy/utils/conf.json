@@ -5,7 +5,7 @@
 	
 	"type" : "cifar",
 	
-	"global_epochs" : 30,
+	"global_epochs" : 300,
 	
 	"local_epochs" : 3,
 	
@@ -21,7 +21,7 @@
 	
 	"dp" : true,
 	
-	"C" : 1,
+	"C" : 1000,
 	
 	"sigma" : 0.001,
 	
