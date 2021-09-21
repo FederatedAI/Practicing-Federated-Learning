@@ -5,7 +5,7 @@
 	
 	"type" : "cifar",
 	
-	"global_epochs" : 300,
+	"global_epochs" : 100,
 	
 	"local_epochs" : 3,
 	
