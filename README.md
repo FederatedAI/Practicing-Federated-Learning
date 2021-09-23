@@ -20,6 +20,14 @@
 
 &nbsp;
 
+## 联邦学习材料
+
+- [联邦学习最新研究论文、书籍、代码、视频等详细资料汇总](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning)
+
+- [香港科技大学“联邦学习”课程](https://ising.cse.ust.hk/fl/index.html)
+
+&nbsp;
+
 ## 简  介
 
 <font size=4>本书是联邦学习系列书籍的第二本，共由五大部分共19章构成。既有理论知识的系统性总结，又有详细的案例分析，本书的组织结构如下：</font>
@@ -73,13 +81,6 @@
 >
 > <b>&mdash; Dawn Song，美国加州大学伯克利分校教授</b>
 
-&nbsp;
-
-## 联邦学习材料
-
-- [联邦学习论文、会议参考资料](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning)
-
-- [香港科技大学“联邦学习”课程](https://ising.cse.ust.hk/fl/index.html)
 
 &nbsp;
 
