@@ -22,7 +22,7 @@
 
 ## 联邦学习材料
 
-- [联邦学习最新研究论文、书籍、代码、视频等详细资料汇总](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning)
+- [联邦学习最新研究论文、书籍、代码、视频等详细资料汇总 (Everything about Federated Learning)](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning)
 
 - [香港科技大学“联邦学习”课程](https://ising.cse.ust.hk/fl/index.html)
 
