@@ -1,16 +1,10 @@
 # 联邦学习实战 (Practicing-Federated-Learning)
 
  [![Awesome](https://img.shields.io/badge/Awesome-Federated%20Learning-blue)](https://github.com/innovation-cat/Awesome-Federated-Machine-Learning) [![Book](https://img.shields.io/badge/Book-Purchase-brightgreen)](https://item.jd.com/13206070.html)    
-&nbsp;
-
-<div align=center>
-<img width="900" src="figures/cover2.png" alt="联邦学习实战"/>
-</div>
 
 
-&nbsp; 
 
-<font size=4>联邦学习是一种新型的、基于数据隐私保护技术实现的分布式训练范式，自提出以来，就受到学术界和工业界的广泛的关注。近年来，随着联邦学习的飞速发展，使得其成为解决数据孤岛和用户隐私问题的首选方案，但当前市面上这方面的实战书籍却尚不多见。本书是第一本权威的联邦学习实战书籍，结合联邦学习案例，有助于读者更深入的理解联邦学习这一新兴的学科。</font>
+<font size=4>联邦学习是一种新型的、基于数据隐私保护技术实现的分布式计算范式，自提出以来，就受到学术界和工业界的广泛关注。近年来，随着联邦学习的飞速发展，使得其成为解决数据孤岛和用户隐私问题的首选方案，但当前市面上这方面的实战书籍却尚不多见。本书是第一本权威的联邦学习实战书籍，结合联邦学习案例，有助于读者更深入的理解联邦学习这一新兴的学科。</font>
 
 <font size=4>**本项目将长期维护和更新《联邦学习实战》书籍对应的章节代码。书或代码中遇到的问题，可以邮件联系：huanganbu@gmail.com**</font>
 
