@@ -26,9 +26,13 @@ def get_model(name="vgg16", pretrained=True):
 	else:
 		return model 
 		
+
 def model_norm(model_1, model_2):
-	squared_sum = 0
-	for name, layer in model_1.named_parameters():
-	#	print(torch.mean(layer.data), torch.mean(model_2.state_dict()[name].data))
-		squared_sum += torch.sum(torch.pow(layer.data - model_2.state_dict()[name].data, 2))
-	return math.sqrt(squared_sum)
+    params_1 = torch.cat([param.view(-1) for param in model_1.parameters()])
+    params_2 = torch.cat([param.view(-1) for param in model_2.parameters()])
+    
+    return torch.norm(params_1 - params_2, p = 2)
+
+def quick_model_norm(model_1, model_2):
+    diffs = [(p1 - p2).view(-1) for p1, p2 in zip(model_1.parameters(), model_2.parameters())]
+    return torch.norm(torch.cat(diffs), p = 2)
